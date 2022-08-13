@@ -1,0 +1,99 @@
+html{
+	width: 900px;
+	height: 900px;
+}
+
+body {
+	width: 600px;
+	height: 750px ;
+	margin: 0 auto;
+	background-image: url(images/back-elf.jpg);
+	background-size: 1350px 900px;
+}
+
+h1{
+	text-align: center;
+}
+
+.words {
+	margin-top: 85px;
+    margin-right: 110px;   
+    margin-left: 110px;
+}
+
+.words .row{
+	margin: 30px;
+	display:flex;
+	justify-content: center;
+}
+
+.words .row div{
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+	background-color: #d3cccc;
+	border: 2px solid #5fe965;
+	border-radius: 11px;
+
+}
+
+
+
+.images{
+	display: flex;
+	justify-content: space-between;
+}
+
+.img-cont{
+	margin-top: 70px;
+    margin-right: 85px;
+    margin-bottom: 70px;
+    margin-left: 85px;
+}
+
+.img-cont button{
+	width: 76px;
+	height: 66px;
+	border: 2px solid #5fe965;
+	border-radius: 11px;
+	padding:0;
+}
+
+.img-cont .images .img {
+	width: 100%;
+	height: 100%;:
+}
+
+.img-cont img{
+	width: 100%;
+	height: 100%;
+	border-radius: 11px;
+}
+
+
+.letters .row{
+	display: flex;
+	justify-content: space-between;
+	margin:20px;
+}
+
+ .row div {
+	font-size: 24px;
+	text-align: center;
+}
+
+
+
+.letters .row button{
+	display: flex;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color: #d3cccc;
+	border: 2px solid #5fe965;
+	border-radius: 11px;
+}
+
+
+
+
